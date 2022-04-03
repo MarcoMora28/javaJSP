@@ -19,7 +19,7 @@
         <h2>
         <%
             out.print(nombres);
-            url += "?nombres" + nombres + "&salu2=Hola";
+            url += "?nombres="+nombres+"&salu2=Hola";
         %>
         </h2>
         <a href="<%=url%>">
